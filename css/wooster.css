@@ -234,15 +234,13 @@ header .links ul li:not(:last-child) a {
 .foot-landing {
     position: relative;
     background-color: black;
-    min-height: 15vh;
+    /* min-height: 15vh; */
 }
 .foot-landing .container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
-    top: 50%;
 }
 @media (max-width: 767px) {
     .foot-landing .container {
@@ -413,6 +411,7 @@ header .links ul li:not(:last-child) a {
     top: -120px;
     height: 50vh;
     background-position: center;
+    display: block;
 }
 @media (max-width: 767px) {
     .video {
